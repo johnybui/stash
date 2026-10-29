@@ -29,6 +29,8 @@
   th { color:var(--muted); font-weight:600; }
   a { color:var(--accent); }
   footer { margin-top:48px; color:var(--muted); font-size:14px; border-top:1px solid var(--border); padding-top:16px; }
+  footer img.brand { display:block; height:24px; width:auto; margin-bottom:12px; }
+  footer p { margin:0; }
 </style>
 </head>
 <body>
@@ -112,7 +114,13 @@
   <h2>Contact</h2>
   <p>Questions about privacy? Open an issue at <a href="https://github.com/johnybui/stash/issues">github.com/johnybui/stash/issues</a>.</p>
 
-  <footer>Stash · Privacy Policy · Last updated October 27, 2026</footer>
+  <footer>
+    <picture>
+      <source srcset="brand/jjatiq-logo-on-dark.svg" media="(prefers-color-scheme: dark)">
+      <img class="brand" src="brand/jjatiq-logo-on-light.svg" alt="JJATiQ" height="24">
+    </picture>
+    <p>Stash · Privacy Policy · Last updated October 27, 2026<br>Made by JJATiQ · © 2026 JJATiQ LLC. All rights reserved.<br>JJATiQ and the JJATiQ logo are trademarks of JJATiQ LLC.</p>
+  </footer>
 </main>
 </body>
 </html>

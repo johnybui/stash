@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stash Support</title>
+<style>
+  :root { --bg:#F6F5F2; --surface:#FFFFFF; --text:#1A1A17; --muted:#55534D; --border:#D6D3CB; --accent:#B83C08; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#121210; --surface:#1D1D1A; --text:#F2F0EA; --muted:#B8B5AC; --border:#3B3A35; --accent:#FF9A5C; } }
+  body { margin:0; background:var(--bg); color:var(--text); font:17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:40px 16px 64px; }
+  h1 { font-size:30px; margin:0 0 4px; } h2 { font-size:21px; margin:32px 0 8px; }
+  .meta { color:var(--muted); margin:0 0 24px; } a { color:var(--accent); }
+  details { background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:12px 16px; margin:10px 0; }
+  summary { font-weight:600; cursor:pointer; }
+  footer { margin-top:48px; color:var(--muted); font-size:14px; border-top:1px solid var(--border); padding-top:16px; }
+  footer img.brand { display:block; height:24px; width:auto; margin-bottom:12px; }
+  footer p { margin:0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Stash Support</h1>
+  <p class="meta">Help for Stash: Find Your Stuff, by JJATiQ LLC</p>
+
+  <h2>Get help</h2>
+  <p>Questions, bugs or ideas: <a href="https://github.com/johnybui/stash/issues">open an issue on GitHub</a>. Please include your phone model and what you tapped.</p>
+
+  <h2>Common questions</h2>
+  <details><summary>Do I need an account?</summary><p>No. Stash works without signing in, and everything stays on your phone.</p></details>
+  <details><summary>Does it work without signal?</summary><p>Yes. Search, adding items, photos, labels and voice all work offline.</p></details>
+  <details><summary>How do I back up or move to a new phone?</summary><p>Settings → Back up now saves a file with your items, a spreadsheet and your photos. Save it to Files, iCloud Drive or Google Drive. On the new phone, Settings → Import backup. Importing merges and never deletes anything.</p></details>
+  <details><summary>Voice says it isn't available</summary><p>Stash only uses speech recognition that runs on your phone. Some phones or languages don't support that offline; you can still use the keyboard's microphone key in the search box. If you turned off microphone or speech access, turn it back on in your phone's Settings.</p></details>
+  <details><summary>How do I print QR labels?</summary><p>Open a place → Print label. Choose US Letter (30 per sheet), A4 (21 per sheet) or a 62 mm label printer, and print at 100% (actual size).</p></details>
+  <details><summary>I deleted something by mistake</summary><p>Tap Undo in the bar at the bottom within 10 seconds. Deletes and moves can always be undone right away.</p></details>
+
+  <p><a href="./">Privacy policy</a></p>
+  <footer>
+    <picture>
+      <source srcset="brand/jjatiq-logo-on-dark.svg" media="(prefers-color-scheme: dark)">
+      <img class="brand" src="brand/jjatiq-logo-on-light.svg" alt="JJATiQ" height="24">
+    </picture>
+    <p>Made by JJATiQ · © 2026 JJATiQ LLC. All rights reserved.<br>JJATiQ and the JJATiQ logo are trademarks of JJATiQ LLC.</p>
+  </footer>
+</main>
+</body>
+</html>
